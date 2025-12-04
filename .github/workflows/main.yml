@@ -1,0 +1,14 @@
+name: dileep
+
+on:
+ push:
+  branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greet
+        run: echo "hi this is my practice for workflow and i write the test case taken a more time"
+   
