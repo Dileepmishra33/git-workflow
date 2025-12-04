@@ -1,0 +1,14 @@
+name: balaji
+on:
+ push:
+  branches: [ main ]
+
+jobs:   
+  like:
+    runs-on: ubuntu-latest
+    steps: 
+       - name: dilp
+         run: echo "hi my own prcatice"
+  
+    
+ 
